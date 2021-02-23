@@ -12,6 +12,6 @@ Rails.application.routes.draw do
   end
 
   namespace :api do
-    get "/all_contacts" => "contacts#all_contacts"
+    get "/all_contacts" => "contacts#index"
   end
 end
