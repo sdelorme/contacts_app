@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+all_contacts =[]
+10.times do 
+  all_contacts << Contact.new(first_name: "B", last_name: "B") 
+end
+p all_contacts
