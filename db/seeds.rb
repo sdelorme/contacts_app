@@ -11,3 +11,8 @@ all_contacts =[]
   all_contacts << Contact.new(first_name: "B", last_name: "B") 
 end
 p all_contacts
+
+100.times do
+  all_contacts << Faker::Name.unique.name
+end
+p all_contacts
